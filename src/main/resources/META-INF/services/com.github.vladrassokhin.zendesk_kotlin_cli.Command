@@ -1,0 +1,1 @@
+com.github.vladrassokhin.zendesk_kotlin_cli.commands.FetchAttachments
