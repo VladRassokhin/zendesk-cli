@@ -61,7 +61,7 @@ public class Main {
             }
         }
         if (commands.isEmpty()) {
-            return err("Expected at command name:" + this.commands.map { "\n\t" + it.name })
+            return err("Expected command name. Supported commands:" + this.commands.joinToString ("\n\t", "\n\t") { it.name })
         }
         if (token == null && password == null) {
             err("Either password or token should be set")
