@@ -1,7 +1,7 @@
-package com.github.vladrassokhin.zendesk_kotlin_cli.commands
+package com.github.vladrassokhin.zendesk.cli.commands
 
-import com.github.vladrassokhin.zendesk_kotlin_cli.Main
-import com.github.vladrassokhin.zendesk_kotlin_cli.Main.Companion.err
+import com.github.vladrassokhin.zendesk.cli.Main
+import com.github.vladrassokhin.zendesk.cli.Main.Companion.err
 import com.ning.http.client.AsyncHttpClient
 import com.ning.http.client.AsyncHttpClientConfig
 import com.ning.http.client.ListenableFuture

@@ -57,6 +57,6 @@ sourceSets {
 
 jar {
     manifest {
-        mainClassName = "com.github.vladrassokhin.zendesk_kotlin_cli.Main"
+        mainClassName = "com.github.vladrassokhin.zendesk.cli.Main"
     }
 }

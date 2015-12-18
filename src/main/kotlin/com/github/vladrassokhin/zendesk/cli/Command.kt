@@ -1,4 +1,4 @@
-package com.github.vladrassokhin.zendesk_kotlin_cli
+package com.github.vladrassokhin.zendesk.cli
 
 import org.zendesk.client.v2.Zendesk
 

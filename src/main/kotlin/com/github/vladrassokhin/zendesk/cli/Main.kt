@@ -1,4 +1,4 @@
-package com.github.vladrassokhin.zendesk_kotlin_cli
+package com.github.vladrassokhin.zendesk.cli
 
 import com.sampullara.cli.Args
 import com.sampullara.cli.Argument
@@ -6,6 +6,7 @@ import org.zendesk.client.v2.Zendesk
 import java.io.File
 import java.nio.file.Files
 import java.nio.file.Paths
+import java.util.*
 
 public class Main {
     @set:Argument(description = "Zendesk host")
@@ -24,7 +25,7 @@ public class Main {
     var config: String? = null
 
     val commands: List<Command> by lazy {
-        val loader = java.util.ServiceLoader.load(Command::class.java)
+        val loader = ServiceLoader.load(Command::class.java)
         return@lazy loader.toArrayList()
     }
 

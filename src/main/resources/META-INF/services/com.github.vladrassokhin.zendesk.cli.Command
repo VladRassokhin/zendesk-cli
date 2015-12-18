@@ -1,0 +1,1 @@
+com.github.vladrassokhin.zendesk.cli.commands.FetchAttachments
