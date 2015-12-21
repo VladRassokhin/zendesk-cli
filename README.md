@@ -29,3 +29,9 @@ guest
 It, well, will fetch all attachments of ticket info directory `$HOME/ZenDesk/ZD-$TICKET_ID`
 
 Accepts either `-id TICKET_ID` or simple list of ticket ids,  e.g. `12345 67890`
+
+# Build
+
+To build project just use `./gradlew clean distShadowTar distShadowZip`
+
+Resulting application tar and zip archives could be found in `build/distribution` directory
